@@ -1,6 +1,8 @@
 # BlackJack v 0.1.0
 
-Simple python3 game of blackjack, not working yet.
+Simple python3 game of blackjack.
+
+Implements multiple decks, multiple named players and betting with casino style dealer AI.
 
 ## Running
 
