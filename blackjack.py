@@ -147,8 +147,10 @@ def main():
 		num_decks = 3
 	name = 'a'
 	player_names = []
-	while ('' != name):
+	while (True):
 		name = input('Enter player name: ')
+		if('' == name):
+			break
 		player_names.append(name)
 	game = blackjack(player_names, num_decks)
 	while (game.running):
